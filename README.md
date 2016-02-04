@@ -6,7 +6,7 @@ Formats and parses ISO 8601 dates.
 
 Add it to your `rebar.config` deps:
 
-    {'iso8601',    ".*",    {git, "git@github.com:seansawyer/erlang_iso8601.git", {tag, "1.1.1"}}}
+    {'iso8601',    ".*",    {git, "https://github.com/andor0/erlang_iso8601.git", {branch, "master"}}}
 
 Format a timestamp or calendar datetime tuple:
 
@@ -36,5 +36,5 @@ Add 1 hour, 2 minutes and 3 seconds to a datetime tuple:
 * Does not support ordinal dates.
 * Does not support intervals.
 
-See the [open issues](https://github.com/seansawyer/erlang_iso8601/issues)
+See the [open issues](https://github.com/andor0/erlang_iso8601/issues)
 for more info.
